@@ -16,5 +16,11 @@ int main(int argc, const char* argv[]) {
 		printf("I can't understand you input!");
 	}
 
+	printf("\n");
+	int x = 7;
+	if ((x >= 0) && (x <= 10)) {
+		printf("X Fits!");
+	}
+
 	return 0;
 }
